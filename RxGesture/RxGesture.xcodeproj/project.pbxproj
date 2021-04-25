@@ -38,15 +38,12 @@
 		87F8F7341E511E8600C3B1BE /* View+RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5177D1E4FED3900A65547 /* View+RxGesture.swift */; };
 		87F8F7371E511E9D00C3B1BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CC4C4F1DEBACC7009ED835 /* Foundation.framework */; };
 		E648E99A25AE81E700E2278B /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99825AE81E700E2278B /* RxCocoa.xcframework */; };
-		E648E99B25AE81E700E2278B /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99825AE81E700E2278B /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E648E99C25AE81E700E2278B /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99925AE81E700E2278B /* RxSwift.xcframework */; };
-		E648E99D25AE81E700E2278B /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99925AE81E700E2278B /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E648E9A125AE81F800E2278B /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99825AE81E700E2278B /* RxCocoa.xcframework */; };
 		E648E9A225AE81F800E2278B /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99825AE81E700E2278B /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E648E9A325AE81F800E2278B /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99925AE81E700E2278B /* RxSwift.xcframework */; };
 		E648E9A425AE81F800E2278B /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E648E99925AE81E700E2278B /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E648E9A925AE821800E2278B /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648E9A825AE821800E2278B /* RxRelay.xcframework */; };
-		E648E9AA25AE821800E2278B /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E648E9A825AE821800E2278B /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E648E9AC25AE821D00E2278B /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E648E9A825AE821800E2278B /* RxRelay.xcframework */; };
 		E648E9AD25AE821D00E2278B /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E648E9A825AE821800E2278B /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F4CC4C221DEBA895009ED835 /* RxGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CC4C201DEBA895009ED835 /* RxGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,19 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E648E99E25AE81E700E2278B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E648E9AA25AE821800E2278B /* RxRelay.xcframework in Embed Frameworks */,
-				E648E99B25AE81E700E2278B /* RxCocoa.xcframework in Embed Frameworks */,
-				E648E99D25AE81E700E2278B /* RxSwift.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E648E9A525AE81F800E2278B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,7 +309,6 @@
 				F4CC4C191DEBA895009ED835 /* Frameworks */,
 				F4CC4C1A1DEBA895009ED835 /* Headers */,
 				F4CC4C1B1DEBA895009ED835 /* Resources */,
-				E648E99E25AE81E700E2278B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
